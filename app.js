@@ -1,5 +1,6 @@
-let n = 0;
-function count() {
-  n++;
-  document.getElementById("num").textContent = n;
+let score = 0
+
+function tap() {
+  score++
+  document.getElementById("score").textContent = score
 }
