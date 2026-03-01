@@ -2,11 +2,27 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Tap Game</title>
+  <title>爆弾ゲーム</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: sans-serif;
+    }
+
+    button {
+      font-size: 30px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-  <h1 id="score">0</h1>
-  <button onclick="tap()">Tap!</button>
+
+  <h1>💣 爆弾ゲーム</h1>
+  <h2 id="status">スタート！</h2>
+  <h3 id="count">0</h3>
+
+  <button onclick="push()">押す</button>
 
   <script src="main.js"></script>
 </body>
